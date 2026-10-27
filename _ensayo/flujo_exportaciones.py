@@ -6,7 +6,7 @@ import pandas as pd
 
 # ---------- 1 · PARAMETROS (todo lo que puede cambiar, junto y arriba) ----------
 RUTA_EXPORTACIONES = "datos/exportaciones.csv"
-RUTA_CATALOGO      = "___"
+RUTA_CATALOGO      = "datos/catalogo.csv"
 SALIDA             = f"salida/exportaciones_con_codigo_{date.today().isoformat()}.csv"
 FILAS_ESPERADAS    = 6
 TOTAL_ESPERADO     = 8679.13
